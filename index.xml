@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Julien&#39;s Personal Site</title>
+    <link>https://juliennyambal.github.io/</link>
+    <description>Recent content in Home on Julien&#39;s Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 Nov 2021 20:45:59 +0200</lastBuildDate><atom:link href="https://juliennyambal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Store</title>
+      <link>https://juliennyambal.github.io/apps/store/</link>
+      <pubDate>Sun, 21 Nov 2021 20:48:51 +0200</pubDate>
+      
+      <guid>https://juliennyambal.github.io/apps/store/</guid>
+      <description>Categories Books Stationary Ustensils  </description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://juliennyambal.github.io/apps/website/</link>
+      <pubDate>Sun, 21 Nov 2021 20:48:38 +0200</pubDate>
+      
+      <guid>https://juliennyambal.github.io/apps/website/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
