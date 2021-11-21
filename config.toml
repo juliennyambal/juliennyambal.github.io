@@ -8,7 +8,7 @@ pygmentsStyle = "bw"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
-publishDir = "docs"
+publishDir = "./public"
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
 
