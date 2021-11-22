@@ -67,6 +67,15 @@ skill:
 
     - name : "Data structures"
       percentage : "70%"
+
+    - name : "AWS"
+      percentage : "60%"
+
+
+    - name : "Azure"
+      percentage : "55%"
+
+
       
       
 # custom style
