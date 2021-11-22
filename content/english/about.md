@@ -79,4 +79,4 @@ Hey guys Julien here! Machine Learning Engineer. I love everything Data Science,
 In Software Engineering, I do mostly back-end work jobs. In Machine Learning, I build models, test them and make them production ready.
 My passion is to see my code running to solve a real world problem. 
 
-I am also a Machine Learning researcher. Besides using libraries like TK, Scikit-Learn and the others, I also have a duty of improving and discovering new learning structures.
+I am also a Machine Learning researcher. Besides using libraries like TF, Scikit-Learn and the others, I also have a duty of improving and discovering new learning structures.
