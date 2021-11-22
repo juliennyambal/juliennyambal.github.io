@@ -79,12 +79,34 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 ############################# social site ########################
 
 [[params.social]]
+name = "Github"
 icon = "fab fa-github"
+weight = 1
 link = "https://github.com/juliennyambal"
 
 [[params.social]]
+name = "LinkedIn"
 icon = "fab fa-linkedin"
+weight = 2
 link = "https://www.linkedin.com/in/juliennyambal/"
+
+[[params.social]]
+name = "ResearchGate"
+icon = "fab fa-researchgate"
+weight = 3
+link = "https://www.researchgate.net/profile/Julien-Nyambal/"
+
+[[params.social]]
+name = "Stackoverflow"
+icon = "fab fa-stack-overflow"
+weight = 4
+link = "https://stackoverflow.com/users/2781787/julien-nyambal"
+
+[[params.social]]
+name = "Youtube"
+icon = "fab fa-youtube"
+weight = 5
+link = "https://www.youtube.com/channel/UCpyuWPI9i6q3yv5lnKFVfqA"
 
 
 ################################### English language #####################################
