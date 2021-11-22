@@ -117,11 +117,11 @@ pre = "#"
 url = "service"
 weight = 3
 
-#[[Languages.en.menu.main]]
-#name = "Portfolio"
-#pre = "#"
-#url = "portfolio"
-#weight = 4
+# [[Languages.en.menu.main]]
+# name = "Portfolio"
+# pre = "#"
+# url = "portfolio"
+# weight = 4
 
 #[[Languages.en.menu.main]]
 #name = "Testimonial"
