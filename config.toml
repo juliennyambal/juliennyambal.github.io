@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://juliennyambal.github.io/"
 title = "Julien Nyambal"
 theme = "somrat"
 # post pagination
@@ -12,7 +12,8 @@ disableLanguages = [] # disable language from here
 googleAnalytics = "" # example : UA-123-45
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
-
+relativeURLs = true
+uglyURLs = true
 
 ############################# Outputs ##############################
 [outputs]
