@@ -1,16 +1,16 @@
 ---
-title : "KNOW MORE <br> ABOUT ME"
+title : "Know More <br> About Me"
 image : "images/backgrounds/portrait.jpg"
 # button
 button:
   enable : true
-  label : "VIEW MY CV"
+  label : "View my CV"
   link : "https://1drv.ms/b/s!ArFGgZLMlxGrgcI2XXdje5hX2MFQ8g?e=jDBCGu"
 
 ########################### Experience ##############################
 experience:
   enable : true
-  title : "EXPERIENCE"
+  title : "Experience"
   experience_list:
     # experience item loop
     - name : "Machine Learning Engineer"
@@ -34,12 +34,18 @@ experience:
     - name : "Machine Learning Engineer"
       company : "Retro Rabbit: "
       duration : "2018-2019"
-      content : "Worked on a [Kalido](https://www.kalido.me/). My role was mainly to maintain and improve the different Machine Learning models for the systems on AWS Cloud. That was entailing reading new papers, A/B testing, custom dataset creation and training."
+      content : "Worked on [Kalido](https://www.kalido.me/). My role was mainly to maintain and improve the different Machine Learning models for the systems on AWS Cloud. That was entailing reading new papers, A/B testing, custom dataset creation and training."
+
+    # experience item loop
+    - name : "Machine Learning Engineer"
+      company : "Retro Rabbit: "
+      duration : "2019"
+      content : "Worked on [Avo by Nedbank](https://www.nedbank.co.za/content/nedbank/desktop/gt/en/personal/nedbank-money/avo.html). I wrote the initial piece of code to do the customer segmentation logic to group the potential customers by spending habits. I was also very involved in the customer's experience improvement by collecting the data from the customer from both the app anf the different sources to propose better products."
 
 ############################### Skill #################################
 skill:
   enable : true
-  title : "SKILL"
+  title : "Skills"
   skill_list:
     # skill item loop
     - name : "Software engineering"
