@@ -1,9 +1,9 @@
 ---
-title: "This Is A Simple Blog Post"
+title: "Simple Perceptron"
 date: 2020-05-12T12:14:34+06:00
-image: "images/portfolio/item1.jpg"
-tags: ["design","development"]
-description: "This is meta description."
+image: "images/portfolio/perceptron.png"
+tags: ["Perceptron","MLP", "Neural Networks", "Backpropagation"]
+description: "This shows step by steps the backprogation and update of the gradient."
 draft: false
 ---
 
