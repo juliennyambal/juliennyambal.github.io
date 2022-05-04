@@ -14,12 +14,12 @@ This post is yet another mini tutorial about MultiLayer Perceptron (MLP), backpr
 The code is available here: [Simple Perceptron](https://github.com/juliennyambal/perceptron_analytics)
 
 
-## Opening ...
+# Opening ...
 
 <center>
 <figure>
     <a href="intial_perceptron">
-    <img src="{{site.url}}/public/images/portfolio/perceptron_example.png" alt="Example Perceptron" class="center"/>
+    <img src="../../../public/images/portfolio/perceptron_example.png" alt="Example Perceptron" class="center"/>
     </a>
     <figcaption>Simple Perceptron</figcaption>
 </figure>
@@ -27,15 +27,54 @@ The code is available here: [Simple Perceptron](https://github.com/juliennyambal
 
 A neuron is the most atomic element in an Artificial Neural Network (ANN). It has some properties:
 
-#### Input Nodes
-These are the static nodes in the networks. There are the ones feeding the network with the required inforamtion to perform the thinking. In the picture above it is represented by **x_1** and **x_2**. This makes our input set to be \mathbb{R}^2. For this example, we will simulate a couple logic gates which are AND, OR, XOR. The input set is as follows:
+### Input Nodes
+The Input Nodes or Input matrix, are the static nodes in the networks. There are the ones feeding the network with the required inforamtion to perform the thinking. In the picture above it is represented by **x_1** and **x_2**. This makes our input set to be \mathbb{R}^2. For this example, we will simulate a couple logic gates which are AND, OR, XOR. The input set is as follows:
+
+| bias    | x_1   | x_2 |
+| ----- | ----- |-----|
+| 1       | 0       |  0  |
+| 1       | 0       |  1  |
+| 1       | 1       |  0  |
+| 1       | 1       |  1  |
+
+You can notice the **bias** term in the first column. This is a very often neglected column. The preceptron is very much like a linear function centerd at *0* in a cartesian space without the bias. The perceptron without the bias would look like this y = w.T x X where y is the output vector, w is the weights vector and x is the input matrix. To ease the training, a bias term is added to the euqation above to make it more flexible: y = w.T x X + b where b is the bias term.
+
+### Output Nodes
+The output nodes are of the same size as the input nodes matrix, just in term of the number of rows or observations. This case the output nodes would be of size 4 since we have 4 observations. The full table would look like this: 
+
+OR Gate
+| bias    | x_1     | x_2   | y   |
+| :-----: | :-----: |:-----:|:---:|
+| 1       | 0       |  0    |0    |
+| 1       | 0       |  1    |1    |
+| 1       | 1       |  0    |1    |
+| 1       | 1       |  1    |1    |
 
 
+AND Gate
+| bias    | x_1     | x_2   | y   |
+| :-----: | :-----: |:-----:|:---:|
+| 1       | 0       |  0    |0    |
+| 1       | 0       |  1    |0    |
+| 1       | 1       |  0    |0    |
+| 1       | 1       |  1    |1    |
 
-#### One More Heading
+OR Gate
+| bias    | x_1     | x_2   | y   |
+| :-----: | :-----: |:-----:|:---:|
+| 1       | 0       |  0    |0    |
+| 1       | 0       |  1    |1    |
+| 1       | 1       |  0    |1    |
+| 1       | 1       |  1    |0    |
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+In this case the output node is made out of the column y.
+
+### Weights
+To Do
+
+### Processing
+To Do
+#### Linear Combination Weights and Input Nodes
+To Do
+#### Activation Operation
+To Do
