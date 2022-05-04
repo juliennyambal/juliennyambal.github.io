@@ -7,21 +7,29 @@ description: "This shows step by steps the backprogation and update of the gradi
 draft: false
 ---
 
-### Introduction
+## Introduction
 
 This post is yet another mini tutorial about MultiLayer Perceptron (MLP), backpropagation gradient techniques techniques. The percetion is the most important unit in a Neural Network. Understanding how this unit works, garantees the understanding a bigger Neural Network. We will describe the working a neuron in a MLP. The history why Artificial Neural Networks can be found everywhere online, but a great paper I would advise would be this one [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf). 
 
 The code is available here: [Simple Perceptron](https://github.com/juliennyambal/perceptron_analytics)
 
 
-### Opening ...
+## Opening ...
 
-![Example used](content/english/blog/images/portfolio/perceptron_example.png)
+<center>
+<figure>
+    <a href="intial_perceptron">
+    <img src="../../../public/images/portfolio/perceptron_example.png" alt="Example Perceptron" class="center"/>
+    </a>
+    <figcaption>Simple Perceptron</figcaption>
+</figure>
+</center>
 
 A neuron is the most atomic element in an Artificial Neural Network (ANN). It has some properties:
 
 #### Input Nodes
-These are the static nodes in the networks. There are the ones feeding the network with the required inforamtion to perform the thinking. 
+These are the static nodes in the networks. There are the ones feeding the network with the required inforamtion to perform the thinking. In the picture above it is represented by **x_1** and **x_2**. This makes our input set to be \mathbb{R}
+
 
 
 #### One More Heading
