@@ -19,7 +19,7 @@ The code is available here: [Simple Perceptron](https://github.com/juliennyambal
 <center>
 <figure>
     <a href="intial_perceptron">
-    <img src="../../../public/images/portfolio/perceptron_example.png" alt="Example Perceptron" class="center"/>
+    <img src="{{site.url}}/public/images/portfolio/perceptron_example.png" alt="Example Perceptron" class="center"/>
     </a>
     <figcaption>Simple Perceptron</figcaption>
 </figure>
@@ -28,7 +28,7 @@ The code is available here: [Simple Perceptron](https://github.com/juliennyambal
 A neuron is the most atomic element in an Artificial Neural Network (ANN). It has some properties:
 
 #### Input Nodes
-These are the static nodes in the networks. There are the ones feeding the network with the required inforamtion to perform the thinking. In the picture above it is represented by **x_1** and **x_2**. This makes our input set to be \mathbb{R}
+These are the static nodes in the networks. There are the ones feeding the network with the required inforamtion to perform the thinking. In the picture above it is represented by **x_1** and **x_2**. This makes our input set to be \mathbb{R}^2. For this example, we will simulate a couple logic gates which are AND, OR, XOR. The input set is as follows:
 
 
 
