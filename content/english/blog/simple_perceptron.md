@@ -11,7 +11,7 @@ draft: false
 
 This post is yet another mini tutorial about MultiLayer Perceptron (MLP), backpropagation gradient techniques techniques. The percetion is the most important unit in a Neural Network. Understanding how this unit works, garantees the understanding a bigger Neural Network. We will describe the working a neuron in a MLP. The history why Artificial Neural Networks can be found everywhere online, but a great paper I would advise would be this one [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf). 
 
-The code is available here: [Simple Perceptron](https://github.com/juliennyambal/perceptron_analytics.png)
+The code is available here: [Simple Perceptron](https://github.com/juliennyambal/perceptron_analytics)
 
 
 ### Opening ...
