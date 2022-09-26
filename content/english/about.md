@@ -42,16 +42,17 @@ experience:
       content : "Lecturer 1st and 2nd year students the following topics: Introduction to Programming Using C++ and Python, Data Structures and Algorithms and Computer Networks."
       
     # experience item loop
+
     - name : "Machine Learning Engineer"
-      company : "Retro Rabbit: "
+      company : "Retro Rabbit - Nedbank: "
+      duration : "2019"
+      content : "Worked on [Avo by Nedbank](https://www.nedbank.co.za/content/nedbank/desktop/gt/en/personal/nedbank-money/avo.html). I wrote the initial piece of code to do the customer segmentation logic to group the potential customers by spending habits. I was also very involved in the customer's experience improvement by collecting the data from the customer from both the app anf the different sources to propose better products."
+
+    - name : "Machine Learning Engineer"
+      company : "Retro Rabbit - Kalido: "
       duration : "2018-2019"
       content : "Worked on [Kalido](https://www.kalido.me/). My role was mainly to maintain and improve the different Machine Learning models for the systems on AWS Cloud. That was entailing reading new papers, A/B testing, custom dataset creation and training."
 
-    # experience item loop
-    - name : "Machine Learning Engineer"
-      company : "Retro Rabbit: "
-      duration : "2019"
-      content : "Worked on [Avo by Nedbank](https://www.nedbank.co.za/content/nedbank/desktop/gt/en/personal/nedbank-money/avo.html). I wrote the initial piece of code to do the customer segmentation logic to group the potential customers by spending habits. I was also very involved in the customer's experience improvement by collecting the data from the customer from both the app anf the different sources to propose better products."
 
 ############################### Skill #################################
 skill:
