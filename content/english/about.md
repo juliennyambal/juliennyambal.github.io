@@ -13,10 +13,21 @@ experience:
   title : "Experience"
   experience_list:
     # experience item loop
+
     - name : "Machine Learning Engineer"
-      company : "Entelect: "
-      duration : "2019-Present"
-      content : Build data oriented and intelligent solutions for financial institutions, from POC (Proof-Of-Concept) to production. This involves dealing with CI/CD, Software Architecture and Orchestration, a lot of creativity.
+      company : "Capitec Bank - Business Bank - Client Experience Delivery : "
+      duration : "2022-Present"
+      content : Currently working on building new data driven software for Business Bank.
+
+    - name : "Machine Learning Engineer"
+      company : "Entelect - Standard Bank Corporate and Investment Banking - Digital Insights: "
+      duration : "2020-2022"
+      content : Lead a small team of Data, Software Engineers and Data Scientists to build FX Tips. A data driven tool tips corporate clients to buy/sell Forex products. The project is a fully in production and has brought in some revenue (around $300000) that made it profitable in its first 6 months of launch. I wrote the very first lines of code to the project and orchestrated the different companents and pipelines needed for predicting propensity to buy or sell a forex product. Overall the Python project was surrounded by CI/CD, cloud, Tensorflow, Git Control-M.
+
+    - name : "Software Engineer Engineer"
+      company : "Entelect - Standard Bank Corporate and Investment Banking - Risk: "
+      duration : "2019-2020"
+      content : In a team of 3 people working on automating the generation of forex reports for Standard Bank Risk teams internal used. The initial report were done using a specialized licenced software that was expensive long term. The aim was to build in in-house version of that report generation. I was responsible to write the main backend codebase to hold all the logic. That would involve building the structure of the backend server and writing the different API endpoints for each use case. This Docker-based API project is in production and performs similar to the initial software bought for the purpose. 
 
     # experience item loop
     - name : "PhD Candidate"
