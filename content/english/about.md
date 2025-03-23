@@ -14,9 +14,14 @@ experience:
   experience_list:
     # experience item loop
 
+    - name : "Manager: Data Science & Data Engineering"
+      company : "MTN Group - Fintech - Mobile Money: Momo : "
+      duration : "2023-Present"
+      content : Empowering unbanked Mobile Money subscribers with MTN Mobile Money thrhough Loan products.
+
     - name : "Machine Learning Engineer"
       company : "Capitec Bank - Business Bank - Client Experience Delivery : "
-      duration : "2022-Present"
+      duration : "2022-2023"
       content : Currently working on building new data driven software for Business Bank.
 
     - name : "Machine Learning Engineer"
