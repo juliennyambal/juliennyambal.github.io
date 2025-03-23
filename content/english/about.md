@@ -39,11 +39,11 @@ experience:
       duration : "2019-2020"
       content : In a team of 3 people working on automating the generation of forex reports for Standard Bank Risk teams internal used. The initial report were done using a specialized licenced software that was expensive long term. The aim was to build in in-house version of that report generation. I was responsible to write the main backend codebase to hold all the logic. That would involve building the structure of the backend server and writing the different API endpoints for each use case. This Docker-based API project is in production and performs similar to the initial software bought for the purpose. 
 
-    # experience item loop
-    - name : "PhD Candidate"
-      company : "University of the Witwatersrand: "
-      duration : "2019-Paused"
-      content : "Investigating the feasibility and perfomance of using Binary Neural Networks (BNN) on current benchmark tasks. The aim is to reduce the load of on GPU from arithmetic operations with huge matrices made of 32 or 64 floating point numbers."
+    # # experience item loop
+    # - name : "PhD Candidate"
+    #   company : "University of the Witwatersrand: "
+    #   duration : "2019-Paused"
+    #   content : "Investigating the feasibility and perfomance of using Binary Neural Networks (BNN) on current benchmark tasks. The aim is to reduce the load of on GPU from arithmetic operations with huge matrices made of 32 or 64 floating point numbers."
 
     # experience item loop
     - name : "Part-Time Lecturer"
