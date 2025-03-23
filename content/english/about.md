@@ -37,7 +37,7 @@ experience:
     # experience item loop
     - name : "PhD Candidate"
       company : "University of the Witwatersrand: "
-      duration : "2019-Present"
+      duration : "2019-Paused"
       content : "Investigating the feasibility and perfomance of using Binary Neural Networks (BNN) on current benchmark tasks. The aim is to reduce the load of on GPU from arithmetic operations with huge matrices made of 32 or 64 floating point numbers."
 
     # experience item loop
