@@ -5,7 +5,7 @@ image : "images/backgrounds/portrait.jpg"
 button:
   enable : true
   label : "View my CV"
-  link : "https://1drv.ms/b/s!ArFGgZLMlxGrgcI2XXdje5hX2MFQ8g?e=jDBCGu"
+  link : "https://github.com/juliennyambal/CV/blob/master/Julien%20Nyambal%20CV.pdf"
 
 ########################### Experience ##############################
 experience:
