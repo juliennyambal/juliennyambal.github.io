@@ -19,6 +19,11 @@ experience:
       duration : "2023-Present"
       content : Empowering unbanked Mobile Money subscribers with MTN Mobile Money thrhough Loan products.
 
+    - name : "Lecturer: Software Engineering"
+      company : "HyperionDev : "
+      duration : "2024-Present"
+      content : I deliver advanced instruction in data structures, algorithms, and software engineering for industry professionals, teaching comprehensive courses on these topics. I also provide instruction in software engineering using Python and JavaScript and lead courses on Machine Learning Fundamentals for bootcamp students.
+
     - name : "Machine Learning Engineer"
       company : "Capitec Bank - Business Bank - Client Experience Delivery : "
       duration : "2022-2023"
@@ -51,7 +56,7 @@ experience:
     - name : "Machine Learning Engineer"
       company : "Retro Rabbit - Nedbank: "
       duration : "2019"
-      content : "Worked on [Avo by Nedbank](https://www.nedbank.co.za/content/nedbank/desktop/gt/en/personal/nedbank-money/avo.html). I wrote the initial piece of code to do the customer segmentation logic to group the potential customers by spending habits. I was also very involved in the customer's experience improvement by collecting the data from the customer from both the app anf the different sources to propose better products."
+      content : "Worked on [Avo by Nedbank](https://www.avo.africa/). I wrote the initial piece of code to do the customer segmentation logic to group the potential customers by spending habits. I was also very involved in the customer's experience improvement by collecting the data from the customer from both the app anf the different sources to propose better products."
 
     - name : "Machine Learning Engineer"
       company : "Retro Rabbit - Kalido: "
@@ -93,7 +98,6 @@ skill:
 
     - name : "AWS"
       percentage : "60%"
-
 
     - name : "Azure"
       percentage : "55%"
