@@ -16,10 +16,11 @@ experience:
     - name : "Manager: Data Science & Data Engineering"
       company : "MTN Group - Fintech - Mobile Money (MoMo): "
       duration : "2023-Present"
-      content : Empowering unbanked Mobile Money subscribers with MTN Mobile Money through loan products.
+      content : Leading Data Science and Data Engineering initiatives that power digital lending products across Africa. Responsible for data platforms, credit risk analytics, machine learning solutions, and scalable data pipelines that enable financial inclusion for millions of Mobile Money customers.
     - name : "Python Subject Matter Expert (SME)"
-      company : "FourthRev: "
+      company : "FourthRev - University of Cambridge: "
       duration : "2025-Present"
+      content : Serving as a Python Subject Matter Expert, mentoring professionals in software development, data engineering, AI, and automation while supporting industry-aligned learning programmes and practical project delivery.
     - name : "Lecturer: Software Engineering"
       company : "HyperionDev: "
       duration : "2024-2025"
@@ -95,6 +96,6 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-I'm Julien, a Data Science & Data Engineering Manager at MTN Group Fintech, where my teams build lending products for MTN Mobile Money (MoMo) subscribers. I am also a Python Subject Matter Expert at FourthRev.
+I'm Julien, a Data Science & Data Engineering Manager at MTN Group Fintech, where my teams build lending products for MTN Mobile Money (MoMo) subscribers. I am also a Python Subject Matter Expert at FourthRev - University of Cambridge.
 
 Over the past several years I have worked as a Machine Learning Engineer and Software Engineer across banking and fintech, taking models from first prototype to production and building the back-end systems around them. What drives me is seeing code running in production and solving a real-world problem.
