@@ -2,7 +2,7 @@
 title : "SERVICES"
 service_list:
 # service item loop
-- name : "Pyhton"
+- name : "Python"
   image : "images/icons/web-development.png"
   
 # service item loop

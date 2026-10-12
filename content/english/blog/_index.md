@@ -1,5 +1,5 @@
 ---
-title: "Oh My Blog!"
+title: "Blog"
 description: "Julien Nyambal's Blogs."
 draft: false
 

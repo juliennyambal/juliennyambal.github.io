@@ -9,7 +9,6 @@ occupations:
 - "Machine Learning Engineer"
 - "Software Engineer"
 - "Data Scientist"
-- "Researcher"
 - "Traveller"
 
 # slider background image loop
@@ -22,7 +21,6 @@ slider_images:
 - "images/slider/slider-6.jpg"
 - "images/slider/slider-7.jpg"
 - "images/slider/slider-8.jpg"
-- "images/slider/slider-9.jpg"
 - "images/slider/slider-10.jpg"
 - "images/slider/slider-11.jpg"
 - "images/slider/slider-12.jpg"

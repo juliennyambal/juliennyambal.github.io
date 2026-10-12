@@ -15,7 +15,7 @@
   </div>
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
-    <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
+    <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt=""></div>
     {{ end }}
   </div>
   <div class="container">
@@ -72,7 +72,7 @@
             <div class="full-nav-icon-holder">
               <ul class="full-nav-icons list-inline">
                 {{ range site.Params.social }}
-                <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}" aria-hidden="true"></i></a></li>
                 {{ end }}
               </ul>
             </div>
@@ -164,7 +164,7 @@
             {{ end }}
             <ul class="mobile-menu-icons list-inline">
               {{ range site.Params.social }}
-              <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+              <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}" aria-hidden="true"></i></a></li>
               {{ end }}
             </ul>
           </nav>
@@ -194,7 +194,7 @@
       </div>
       {{ with .Params.image }}
       <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
-        <img class="img-fluid" src="{{ . | absURL }}" alt="about-me">
+        <img class="img-fluid" src="{{ . | absURL }}" alt="Portrait of {{ site.Title }}">
       </div>
       {{ end }}
     </div>
@@ -226,6 +226,7 @@
         <h3>{{ .title }}</h3>
         <div class="skill-progress-bar">
           {{ range .skill_list }}
+          {{ if .percentage }}
           <div class="clearfix">
             <span class="skillbar-title">{{ .name }}</span>
             <span class="skill-bar-percent">{{ .percentage }}</span>
@@ -233,6 +234,9 @@
               <div class="skillbar-bar"></div>
             </div>
           </div>
+          {{ else }}
+          <span class="skill-tag">{{ .name }}</span>
+          {{ end }}
           {{ end }}
         </div>
       </div>
@@ -438,11 +442,11 @@
         <hr>
         <ul class="footer-icons list-inline">
           {{ range site.Params.social }}
-          <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}" aria-hidden="true"></i></a></li>
           {{ end }}
         </ul>
         <div class="to-top">
-          <a href="#home"><i class="fa fa-chevron-up"></i></a>
+          <a href="#home" aria-label="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
         </div>
         <div class="credit content">
           {{ site.Params.copyright | markdownify }}
@@ -454,6 +458,6 @@
 {{ end }}
 <!-- End Contact -->
 
-<a href="#home" class="scroll-up hvr-icon-up"></a>
+<a href="#home" class="scroll-up hvr-icon-up" aria-label="Back to top"></a>
 
 {{ end }}

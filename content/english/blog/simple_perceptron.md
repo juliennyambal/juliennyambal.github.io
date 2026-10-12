@@ -4,7 +4,7 @@ date: 2020-05-12T12:14:34+06:00
 image: "images/portfolio/perceptron.png"
 tags: ["Perceptron","MLP", "Neural Networks", "Backpropagation", "Gradient"]
 description: "This shows step by steps the backprogation and update of the gradient."
-draft: false
+draft: true
 ---
 
 ## Introduction
@@ -18,9 +18,7 @@ The code is available here: [Simple Perceptron](https://github.com/juliennyambal
 
 <center>
 <figure>
-    <a href="intial_perceptron">
-    <img src="../../../public/images/portfolio/perceptron_example.png" alt="Example Perceptron" class="center"/>
-    </a>
+    <img src="/images/portfolio/perceptron_example.png" alt="Example Perceptron" class="center"/>
     <figcaption>Simple Perceptron</figcaption>
 </figure>
 </center>

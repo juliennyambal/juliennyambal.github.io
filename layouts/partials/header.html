@@ -83,7 +83,7 @@
             {{ end }}
             <ul class="mobile-menu-icons list-inline">
               {{ range site.Params.social }}
-              <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+              <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}" aria-hidden="true"></i></a></li>
               {{ end }}
             </ul>
           </nav>

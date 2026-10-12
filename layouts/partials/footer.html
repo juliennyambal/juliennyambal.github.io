@@ -5,11 +5,11 @@
         <hr>
         <ul class="footer-icons list-inline">
           {{ range site.Params.social }}
-          <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          <li><a href="{{ .link | safeURL }}" aria-label="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}" aria-hidden="true"></i></a></li>
           {{ end }}
         </ul>
         <div class="to-top">
-          <a href="#home"><i class="fa fa-chevron-up"></i></a>
+          <a href="#home" aria-label="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
         </div>
         <div class="credit content">
           {{ site.Params.copyright | markdownify }}

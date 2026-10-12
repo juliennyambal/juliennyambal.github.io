@@ -1,17 +1,12 @@
 ######################## default configuration ####################
 baseURL = "https://juliennyambal.github.io/"
 title = "Julien Nyambal"
-theme = "somrat"
 # post pagination
 pagination.pagerSize = "6"
 # post excerpt
 summaryLength = "10"
 # disable language
 disableLanguages = [] # disable language from here
-# google analutics
-googleAnalytics = "" # example : UA-123-45
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
 relativeURLs = true
 uglyURLs = true
 
@@ -34,8 +29,6 @@ link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.c
 [[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
-[[params.plugins.css]]
 link = "plugins/owl-carousel/owl.carousel.min.css"
 [[params.plugins.css]]
 link = "plugins/owl-carousel/owl.theme.default.min.css"
@@ -54,10 +47,6 @@ link = "plugins/text-animation/text-animation.js"
 [[params.plugins.js]]
 link = "plugins/jquery.waypoints.min.js"
 [[params.plugins.js]]
-link = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
-[[params.plugins.js]]
 link = "plugins/owl-carousel/owl.carousel.min.js"
 
 
@@ -68,12 +57,12 @@ logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 logo_width = "150px"
 # Meta data
-description = "Julien Nyambal's Space"
-author = "somrat"
+description = "Julien Nyambal: Data Science & Data Engineering Manager, Machine Learning Engineer and Software Engineering lecturer."
+author = "Julien Nyambal"
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
   
 ############################# social site ########################
@@ -117,7 +106,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2022 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "Copyright &copy; Julien Nyambal"
 
 
 ################# english navigation ##################
@@ -158,7 +147,8 @@ pre = "#"
 url = "contact"
 weight = 5
 
-[[Languages.en.menu.main]]
-name = "Blog"
-url = "blog"
-weight = 6
+# Hidden until the blog has published posts
+# [[Languages.en.menu.main]]
+# name = "Blog"
+# url = "blog"
+# weight = 6

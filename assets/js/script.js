@@ -242,7 +242,7 @@
 	}
 
 	// Initialize MagnificPopup Plugin
-	$('.filtr-wrapper').magnificPopup({
+	if ($.fn.magnificPopup) $('.filtr-wrapper').magnificPopup({
 		type: 'image',
 		delegate: '.image-pop',
 		gallery: {
