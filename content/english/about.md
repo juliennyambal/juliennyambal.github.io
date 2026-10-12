@@ -66,30 +66,19 @@ skill:
   enable : true
   title : "Skills"
   skill_list:
-    # skill item loop
-    - name : "Software engineering"
-      
-    # skill item loop
+    - name : "Data Engineering"
     - name : "Machine Learning"
+    - name : "Microsoft Fabric"
+    - name : "Apache Airflow"
+    - name : "Python"
+    - name : "SQL"
+    - name : "Generative AI"
+    - name : "AI Agents"
+    - name : "MLOps"
+    - name : "Cloud Architecture"
+    - name : "Technical Leadership"
+    - name : "Credit Risk Analytics"
 
-    # skill item loop
-    - name : "Data science"
-
-    # skill item loop
-    - name : "CI/CD"
-      
-    # skill item loop
-    - name : "Problem-solving"
-
-    # skill item loop
-    - name : "Databases"
-    - name : "Data structures"
-    - name : "AWS"
-    - name : "Azure"
-
-
-      
-      
 # custom style
 custom_class: "" 
 custom_attributes: "" 
